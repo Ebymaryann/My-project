@@ -1,0 +1,33 @@
+.body{
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 25px 50px 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5%;
+    justify-content: center;
+}
+#phoneNumber{
+    width: 95%;
+    margin-top: 30px;
+    padding-top: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+h1{
+    text-align: center;
+}
+
+
+@media (max-width: 600px) {
+    .body {
+        max-width: 90%;
+        padding: 50px;
+    }
+
+    #phoneNumber {
+        font-size: 14px;
+    }
+}
+
